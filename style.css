@@ -8,13 +8,15 @@ body{
     margin: 0;
 }
 
-.contenair{ 
+.container{ 
     background-color: hsl(0, 0%, 100%);
-    width: 300px;
-    height: 500px;
+    max-width: 320px;
+    width: 90%;
+    height: auto;
     border-radius: 15px;
     text-align: center;
     padding: 20px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
 }
 
 .qr-code-image{
